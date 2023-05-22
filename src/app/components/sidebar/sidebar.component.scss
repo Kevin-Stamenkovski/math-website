@@ -1,5 +1,12 @@
 a{
   text-decoration: none;
   font-size: 25px;
-
+  color: #000052;
+}
+a:hover{
+  color: #0000dc;
+}
+.links{
+  display: flex;
+  flex-direction: column;
 }
