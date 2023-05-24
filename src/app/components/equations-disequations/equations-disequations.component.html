@@ -1,1 +1,42 @@
+<main>
 <h2 class="mat-h1 title">Equazioni e Diesequazioni</h2>
+  <section class="segno_del_trinomio">
+    <h3>Segno Del Trinomio &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Ax<sup>2</sup> + Bx + C &nbsp;&nbsp;&nbsp;  (A > 0)</h3>
+    <article>
+      <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+        <!--- Note that these columns can be defined in any order.
+              The actual rendered columns are set as a property on the row definition" -->
+
+        <!-- Position Column -->
+        <ng-container matColumnDef="header">
+          <th mat-header-cell *matHeaderCellDef> No. </th>
+          <td mat-cell *matCellDef="let element"> {{element.header}} </td>
+        </ng-container>
+
+        <!-- Name Column -->
+        <ng-container matColumnDef="one">
+          <th mat-header-cell *matHeaderCellDef> Name </th>
+          <td mat-cell *matCellDef="let element"> {{element.one}} </td>
+        </ng-container>
+
+        <!-- Weight Column -->
+        <ng-container matColumnDef="two">
+          <th mat-header-cell *matHeaderCellDef> Weight </th>
+          <td mat-cell *matCellDef="let element"> {{element.two}} </td>
+        </ng-container>
+
+        <!-- Symbol Column -->
+        <ng-container matColumnDef="three">
+          <th mat-header-cell *matHeaderCellDef> Symbol </th>
+          <td mat-cell *matCellDef="let element"> {{element.three}} </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+    </article>
+  </section>
+
+
+</main>

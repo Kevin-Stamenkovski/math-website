@@ -5,8 +5,17 @@ a{
 }
 a:hover{
   color: #0000dc;
+
 }
 .links{
   display: flex;
   flex-direction: column;
+  gap: 10px;
+}
+.active{
+  color: #0000dc;
+
+}
+.buttons{
+  width: 80%;
 }
