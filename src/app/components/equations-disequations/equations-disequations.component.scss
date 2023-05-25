@@ -6,5 +6,15 @@
 main{
   margin-top: 15px;
   margin-left: 15px;
+  width: 80%;
+}
+tr:nth-child(odd){
+  background: rgba(128, 128, 128, 0.47);
+}
+section{
+  padding-bottom: 50px;
+}
+.equation{
+  color: #bd1f0f;
 }
 
