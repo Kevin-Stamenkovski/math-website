@@ -8,6 +8,7 @@ import {MatToolbarModule} from "@angular/material/toolbar";
 import {SidebarComponent} from './components/sidebar/sidebar.component';
 import {MatButtonModule} from "@angular/material/button";
 import {MatTableModule} from "@angular/material/table";
+import {MatCardModule} from "@angular/material/card";
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import {MatTableModule} from "@angular/material/table";
     MatToolbarModule,
     MatButtonModule,
     MatTableModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

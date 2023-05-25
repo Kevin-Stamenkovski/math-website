@@ -3,8 +3,8 @@ main{
 }
 
 app-sidebar{
-  width: 20%;
+  width: 25%;
 }
 :host::ng-deep router-outlet+ *:not(nav){
-  width: 80%;
+  width: 75%;
 }

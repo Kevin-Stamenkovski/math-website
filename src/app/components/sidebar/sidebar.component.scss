@@ -1,3 +1,6 @@
+main{
+  width: 100%;
+}
 a{
   text-decoration: none;
   font-size: 25px;
@@ -11,11 +14,13 @@ a:hover{
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 100%;
 }
 .active{
   color: #0000dc;
 
 }
 .buttons{
-  width: 80%;
+  width: 90%;
+  margin-left: 5px;
 }
