@@ -9,16 +9,12 @@ import {SidebarComponent} from './components/sidebar/sidebar.component';
 import {MatButtonModule} from "@angular/material/button";
 import {MatTableModule} from "@angular/material/table";
 import {MatCardModule} from "@angular/material/card";
-import { EsponenzialiComponent } from './components/esponenziali/esponenziali.component';
-import { LogaritmiComponent } from './components/logaritmi/logaritmi.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     sections,
     SidebarComponent,
-    EsponenzialiComponent,
-    LogaritmiComponent,
   ],
   imports: [
     BrowserModule,

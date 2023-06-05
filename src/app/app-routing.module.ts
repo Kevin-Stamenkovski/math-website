@@ -5,13 +5,15 @@ import {GraphicsComponent} from "./components/graphics/graphics.component";
 import {AnalitycGeometryComponent} from "./components/analityc-geometry/analityc-geometry.component";
 import {EsponenzialiComponent} from "./components/esponenziali/esponenziali.component";
 import {LogaritmiComponent} from "./components/logaritmi/logaritmi.component";
+import {FunctionsComponent} from "./components/functions/functions.component";
 
 const routes: Routes = [
   {path: 'eqz', component: EquationsDisequationsComponent},
   {path: 'graphs', component: GraphicsComponent},
   {path: 'geometry', component: AnalitycGeometryComponent},
   {path: 'esp', component: EsponenzialiComponent},
-  {path: 'log', component: LogaritmiComponent}
+  {path: 'log', component: LogaritmiComponent},
+  {path: 'func', component: FunctionsComponent}
 ];
 
 @NgModule({
@@ -19,4 +21,11 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const sections = [EquationsDisequationsComponent,AnalitycGeometryComponent,GraphicsComponent]
+export const sections =
+  [ EquationsDisequationsComponent,
+    AnalitycGeometryComponent,
+    GraphicsComponent,
+    FunctionsComponent,
+    EsponenzialiComponent,
+    LogaritmiComponent
+  ]
